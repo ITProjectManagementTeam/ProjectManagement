@@ -1,6 +1,4 @@
-package pm.common;
-
-import org.springframework.http.HttpStatus;
+package pm.entities;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -30,12 +28,6 @@ public class R extends HashMap<String, Object> {
 	public static R ok(Map<String, Object> map) {
 		R r = new R();
 		r.putAll(map);
-		return r;
-	}
-
-	public static R ok(String key, Object object){
-		R r = new R();
-		r.put(key, object);
 		return r;
 	}
 	
