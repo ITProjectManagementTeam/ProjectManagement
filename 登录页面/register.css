@@ -1,0 +1,176 @@
+
+.white{
+	position:absolute;
+	left: 812px;
+	top: 234px;
+	width: 440px;
+	height: 585px;
+	line-height: 20px;
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 1);
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.title{
+	position:absolute;
+	left: 961px;
+	top: 294px;
+	width: 144px;
+	height: 36px;
+	color: rgba(21, 132, 151, 1);
+	font-size: 24px;
+	text-align: center;
+	font-family: SourceHanSansSC-regular;
+		   }
+
+.denglu{
+	position:absolute;
+	left: 862px;
+	top: 393px;
+	width: 40px;
+	height: 29px;
+	color: rgba(97, 88, 88, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.pic{
+	position:absolute;
+	left: 172px;
+	top: 234px;
+	width: 640px;
+	height: 585px;
+	line-height: 20px;
+	opacity: 0.52;
+	background-color: rgba(184, 217, 222, 1);
+	text-align: center;
+	border: 1px solid rgba(187, 187, 187, 1);
+	background:url("img.jfif"); 
+}
+
+.welcome{
+	position:absolute;
+	left: 232px;
+	top: 271px;
+	width: 190px;
+	height: 100px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 31px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+	}
+
+.person{
+	position:absolute;
+	left: 862px;
+	top: 472px;
+	width: 25px;
+	height: 25px;
+	background-color: rgba(190, 190, 190, 1);
+	background:url("md-person.svg");
+}
+
+.num{
+	position:absolute;
+	left: 862px;
+	top: 548px;
+	width: 25px;
+	height: 25px;
+	background-color: rgba(190, 190, 190, 1);
+	background:url("lock.svg");
+}
+
+.line1{
+	position:absolute;
+	left: 862px;
+	top: 507px;
+	width: 340px;
+	height: NaNpx;
+	border: 1px solid rgba(220, 220, 220, 1);
+}
+
+.line2{
+	position:absolute;
+	left: 862px;
+	top: 583px;
+	width: 340px;
+	height: NaNpx;
+	border: 1px solid rgba(220, 220, 220, 1);
+}
+/*.box{
+	position:absolute;
+	left: 862px;
+	top: 614px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background-color: rgba(255, 255, 255, 1);
+	text-align: center;
+	border: 1px solid rgba(211, 211, 211, 1);
+}*/
+/*
+.rember{
+	position:absolute;
+	left: 892px;
+	top: 614px;
+	width: 56px;
+	height: 20px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}*/
+
+.deng{
+	position:absolute;
+	left: 862px;
+	top: 664px;
+	width: 340px;
+	height: 45px;
+	line-height: 23px;
+	border-radius: 3px;
+	background-color: rgba(21, 132, 151, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	text-align: center;
+	font-family: Roboto;
+	border: 1px solid rgba(21, 132, 151, 1);
+}
+
+.forget{
+	position:absolute;
+	left: 1004px;
+	top: 739px;
+	width: 56px;
+	height: 20px;
+	color: rgba(58, 98, 215, 1);
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.userbox{
+	position:absolute;
+	left: 897px;
+	top: 472px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.passwdbox{
+	position:absolute;
+	left: 897px;
+	top: 548px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
