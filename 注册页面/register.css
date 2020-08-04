@@ -1,0 +1,184 @@
+
+.white{
+	position:absolute;
+	left: 812px;
+	top: 234px;
+	width: 440px;
+	height: 585px;
+	line-height: 20px;
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 1);
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.title{
+	position:absolute;
+	left: 961px;
+	top: 294px;
+	width: 144px;
+	height: 36px;
+	color: rgba(21, 132, 151, 1);
+	font-size: 24px;
+	text-align: center;
+	font-family: SourceHanSansSC-regular;
+		   }
+
+.register{
+	position:absolute;
+	left: 862px;
+	top: 393px;
+	width: 40px;
+	height: 29px;
+	color: rgba(97, 88, 88, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.pic{
+	position:absolute;
+	left: 172px;
+	top: 234px;
+	width: 640px;
+	height: 585px;
+	line-height: 20px;
+	opacity: 0.52;
+	background-color: rgba(184, 217, 222, 1);
+	text-align: center;
+	border: 1px solid rgba(187, 187, 187, 1);
+	background:url("img.jfif"); 
+}
+
+.welcome{
+	position:absolute;
+	left: 232px;
+	top: 271px;
+	width: 190px;
+	height: 100px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 31px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+	}
+
+.icon{
+	position:absolute;
+	left: 862px;
+	width: 25px;
+	height: 25px;
+}
+
+#icon1{
+	top: 455px;
+	content:url("md-person.svg");
+}
+
+#icon2{
+	top: 515px;
+	content:url("email.svg");
+}
+
+#icon3{
+	top: 575px;
+	content:url("lock.svg");
+}
+
+.line {
+	position:absolute;
+	left: 862px;
+	width: 340px;
+	height: NaNpx;
+	border: 1px solid rgba(220, 220, 220, 1);
+}
+
+#line1{
+	top: 485px;
+}
+
+#line2{
+	top: 545px;
+}
+
+#line3{
+	top: 605px;
+}
+
+.registerButton{
+	position:absolute;
+	left: 862px;
+	top: 664px;
+	width: 340px;
+	height: 45px;
+	line-height: 23px;
+	border-radius: 3px;
+	background-color: rgba(21, 132, 151, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	text-align: center;
+	font-family: Roboto;
+	border: 1px solid rgba(21, 132, 151, 1);
+}
+
+.returnToLogin{
+	position:absolute;
+	left: 1016px;
+	top: 739px;
+	width: 56px;
+	height: 20px;
+	color: rgba(58, 98, 215, 1);
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+/*去除input默认样式*/
+input {
+    outline:none;
+    background:transparent;
+    border:none;
+    outline:medium;
+}
+*:focus { 
+    outline: none;
+    background-color: transparent;
+}
+ ::selection{background:transparent; }
+ ::-moz-selection{background:transparent; }
+
+
+.userbox{
+	position:absolute;
+	left: 897px;
+	top: 450px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.emailbox{
+	position:absolute;
+	left: 897px;
+	top: 510px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.passwdbox{
+	position:absolute;
+	left: 897px;
+	top: 570px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
