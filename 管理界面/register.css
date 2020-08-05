@@ -1,0 +1,225 @@
+body {
+	background-color: #B8D9DE;
+}
+
+.middle {
+	width: 1080px;
+	height: 585px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.white {
+	position: absolute;
+	left: 640px;
+	top: 0px;
+	width: 440px;
+	height: 585px;
+	line-height: 20px;
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 1);
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.title {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 60px;
+	width: 144px;
+	height: 36px;
+	color: rgba(21, 132, 151, 1);
+	font-size: 24px;
+	text-align: center;
+	font-family: SourceHanSansSC-regular;
+}
+
+.title2 {
+	position: absolute;
+	left: 50px;
+	top: 142px;
+	width: 80px;
+	height: 29px;
+	color: rgba(97, 88, 88, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.pic {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 640px;
+	height: 585px;
+	line-height: 20px;
+	opacity: 0.52;
+	background-color: rgba(184, 217, 222, 1);
+	text-align: center;
+	border: 1px solid rgba(187, 187, 187, 1);
+	background: url("img.jfif");
+}
+
+.welcome {
+	position: absolute;
+	left: 60px;
+	top: 37px;
+	width: 190px;
+	height: 100px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 31px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.person {
+	position: absolute;
+	left: 50px;
+	top: 278px;
+	width: 25px;
+	height: 25px;
+	background-color: rgba(190, 190, 190, 1);
+	background: url("md-email.svg");
+}
+
+.num {
+	position: absolute;
+	left: 50px;
+	top: 352px;
+	width: 25px;
+	height: 25px;
+	background-color: rgba(190, 190, 190, 1);
+	background: url("lock.svg");
+}
+
+.unlock {
+	position: absolute;
+	left: 50px;
+	top: 205px;
+	width: 25px;
+	height: 25px;
+	background-color: rgba(190, 190, 190, 1);
+	background: url("md-lock_open.svg");
+
+}
+
+.line1 {
+	position: absolute;
+	left: 50px;
+	top: 317px;
+	width: 340px;
+	height: NaNpx;
+	border: 1px solid rgba(220, 220, 220, 1);
+}
+
+.line2 {
+	position: absolute;
+	left: 50px;
+	top: 395px;
+	width: 340px;
+	height: NaNpx;
+	border: 1px solid rgba(220, 220, 220, 1);
+}
+
+.line3 {
+	position: absolute;
+	left: 50px;
+	top: 243px;
+	width: 340px;
+	height: NaNpx;
+	border: 1px solid rgba(220, 220, 220, 1);
+}
+
+/*.box{
+	position:absolute;
+	left: 862px;
+	top: 614px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background-color: rgba(255, 255, 255, 1);
+	text-align: center;
+	border: 1px solid rgba(211, 211, 211, 1);
+}*/
+/*
+.rember{
+	position:absolute;
+	left: 892px;
+	top: 614px;
+	width: 56px;
+	height: 20px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}*/
+
+.deng {
+	position: absolute;
+	left: 50px;
+	top: 430px;
+	width: 340px;
+	height: 45px;
+	line-height: 23px;
+	border-radius: 3px;
+	background-color: rgba(21, 132, 151, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	text-align: center;
+	font-family: Roboto;
+	border: 1px solid rgba(21, 132, 151, 1);
+}
+
+.forget {
+	position: absolute;
+	left: 192px;
+	top: 505px;
+	width: 56px;
+	height: 20px;
+	color: rgba(58, 98, 215, 1);
+	font-size: 14px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.emailbox {
+	position: absolute;
+	left: 85px;
+	top: 278px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.passwdbox {
+	position: absolute;
+	left: 85px;
+	top: 352px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
+
+.prepasswdbox {
+	position: absolute;
+	left: 85px;
+	top: 205px;
+	width: 300px;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: SourceHanSansSC-regular;
+}
